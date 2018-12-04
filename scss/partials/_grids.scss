@@ -1,0 +1,233 @@
+@import'partials/variables';
+
+
+
+// Navbar starts here
+
+.grid-container1{
+    display:grid;
+    /* Creating columns */
+    grid-template-columns: 33.4% auto 33.3%;
+    /* Create spaces between items or "blocks" */
+    grid-gap: 0;
+    background-color: $primary-color;
+    color:white;
+    padding:10px;
+}
+.grid-container1 >div {
+    // background-color: royalblue;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 34px;
+}
+  
+.grid-container2{
+    display:grid;
+    /* Creating columns */
+    grid-template-columns: 100% ;
+    /* Create spaces between items or "blocks" */
+    grid-gap: 0;
+    background-color: black;
+    color:white;
+    padding:20%;
+    height: 100px;
+}
+
+.grid-container2 >div {
+    background-color: royalblue;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 20px;
+}
+
+// Grid-container3 has nested grid 
+
+.grid3content{
+    display:grid;
+    /* Creating columns */
+    grid-template-columns: 50% 25% 25% ;
+    /* Create spaces between items or "blocks" */
+    grid-auto-rows: auto auto;
+    grid-gap:20px;
+    background-color: rgba(0, 0, 0, 0.52);
+    color:white;
+    padding: 10%;
+}
+.grid3content >div {
+    background-color: royalblue;
+    text-align: center;
+    padding: 1%; 
+}
+
+.item-1 {
+    grid-column: span 1;
+    grid-row: span 2;
+}
+
+.item-2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+}
+
+.item-3 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+// grid-container3 styling ends here
+
+// grid-container4 styling starts here
+
+.grid4content{
+    display:grid;
+    /* Creating columns */
+    grid-template-columns: 25% 25% 25% 25% ;
+    /* Create spaces between items or "blocks" */
+    grid-gap: 10px;
+    background-color: rgba(0, 0, 0, 1);
+    color:white;
+    padding: 10%;
+    height: 200px;
+}
+
+.grid4content >div {
+    background-color: royalblue;
+    text-align: center;
+    padding: 20px; 
+}
+
+// Grid-container4 ends here
+
+// grid-container5 starts here
+
+.grid-container5 {
+    background-color: $primary-color;
+    padding-left: 25%;
+    padding-top: 4%;
+    padding-right: 15%;
+}
+
+.grid5content{
+    display:grid;
+    /* Creating columns */
+    grid-template-columns: 25% 25% 50% ;
+    /* Create spaces between items or "blocks" */
+    grid-template-rows: auto auto;
+    grid-gap: 10px;
+    
+    color:white;
+    padding-right: 15%;
+    padding-bottom: 5%;
+    height: 200px;
+}
+
+.grid5content >div {
+    background-color: royalblue;
+    text-align: center;
+    padding: 20px;
+}
+
+.item-11 {
+    grid-row: span 2;
+}
+
+.grid-container6 {
+    background-color: rgb(104, 9, 9);
+    padding-left: 25%;
+    padding-top: 4%;
+    padding-right: 15%;
+}
+
+.grid6content{
+    display:grid;
+    /* Creating columns */
+    grid-template-columns: 25% 25% 25% 25%;
+    /* Create spaces between items or "blocks" */
+    grid-template-rows: auto auto;
+    grid-gap: 10px;
+    background-color:rgb(104, 9, 9);
+    color:white;
+    padding-right: 4%;
+    padding-bottom: 5%;
+}
+
+.grid6content >div {
+    background-color: royalblue;
+    text-align: center;
+    padding: 20px;
+}
+
+.grid7content{
+    display:grid;
+    /* Creating columns */
+    grid-template-columns: 25% 25% 25% 25%;
+    /* Create spaces between items or "blocks" */
+    grid-template-rows: auto auto;
+    grid-gap: 10px;
+    background-color:rgb(14, 13, 13);
+    color:white;
+    padding: 2% 20%;
+}
+
+.grid7content >div {
+    background-color: royalblue;
+    text-align: center;
+    padding: 20px;
+    height: 100px;
+}
+
+.grid8content{
+    display:grid;
+    /* Creating columns */
+    grid-template-columns: 100%;
+    /* Create spaces between items or "blocks" */
+    grid-template-rows: auto auto;
+    grid-gap: 0;
+    background-color:rgb(156, 6, 6);
+    color:white;
+    padding: 2% 30%;
+}
+
+.grid8content >div {
+    background-color: royalblue;
+    text-align: center;
+    height: 150px;
+}
+
+.grid10content {
+    display:grid;
+    /* Creating columns */
+    grid-template-columns: 35% 17% 24% 24%;
+    /* Create spaces between items or "blocks" */
+    grid-gap: 5px;
+    background-color:rgb(184, 0, 0);
+    color:white;
+    padding:5% 20%;
+}
+
+.grid10content >div {
+    background-color: royalblue;
+    text-align: center;
+    height: 150px;
+}
+
+.footercontent {
+    display:grid;
+    /* Creating columns */
+    grid-template-columns: 50% 50%;
+    /* Create spaces between items or "blocks" */
+    grid-gap: 5px;
+    background-color:rgb(184, 0, 0);
+    color:white;
+    padding-top: 5%;
+    padding-right: 1%;
+}
+
+.footercontent >div {
+    background-color: royalblue;
+    text-align: center;
+    height: 150px;
+}
+ 
+
