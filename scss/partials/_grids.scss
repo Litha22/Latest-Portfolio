@@ -1,7 +1,6 @@
 @import'partials/variables';
 
 
-
 // Navbar starts here
 
 .grid-container1{
@@ -194,6 +193,27 @@
     text-align: center;
     height: 150px;
 }
+
+// grid container 9
+
+.grid-container9 {
+    display:grid;
+    /* Creating columns */
+    grid-template-columns: auto;
+    /* Create spaces between items or "blocks" */
+    
+    background-color:rgb(13, 7, 104);
+    color:white;
+    padding:5% 20%;
+}
+
+.grid-container9 >div {
+    text-align: center;
+    height: 150px;
+}
+
+
+
 
 .grid10content {
     display:grid;
