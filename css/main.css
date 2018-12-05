@@ -10,11 +10,11 @@
   margin-right: 0px; }
 
 .logo {
-  height: 150px;
-  width: 300px;
   font-weight: 700;
   line-height: 22px;
-  font-family: 'Raleway', sans-serif; }
+  font-family: 'Raleway', sans-serif;
+  font-size: 50px;
+  margin-left: 25px; }
 
 input {
   border-radius: 2px;
@@ -153,6 +153,18 @@ button {
     height: 100px;
     width: 250px; }
 
+.namehead {
+  font-family: 'Montserrat', 'sans-serrif';
+  weight: 700px;
+  font-size: 85px;
+  color: white; }
+
+.surnamehead {
+  font-family: 'Montserrat', 'sans-serrif';
+  weight: 400px;
+  font-size: 30px;
+  color: white; }
+
 .greyhead {
   font-family: 'Montserrat', 'sans-serrif';
   weight: 700px;
@@ -174,12 +186,22 @@ button {
   font-size: 24px;
   color: black; }
 
+.landinghead {
+  font-family: 'Raleway', 'sans-serrif';
+  weight: 600px;
+  font-size: 16px; }
+
 .about-me-text {
   font-size: 19px; }
 
 .thickline {
   border-bottom: 4px solid black;
   margin-right: 92%; }
+
+.thickline2 {
+  border-bottom: 4px solid white;
+  margin-right: 47%;
+  margin-left: 47%; }
 
 .grid-container1 {
   display: grid;
@@ -190,11 +212,6 @@ button {
   background-color: darkslategray;
   color: white;
   padding: 10px; }
-
-.grid-container1 > div {
-  text-align: center;
-  padding: 20px 0;
-  font-size: 34px; }
 
 .grid-container2 {
   display: grid;
@@ -208,7 +225,6 @@ button {
   padding: 10% 30%; }
 
 .grid-container2 > div {
-  background-color: royalblue;
   text-align: center;
   padding: 20px 0;
   font-size: 20px; }
@@ -217,7 +233,7 @@ button {
   border-bottom: 6px solid white;
   border-left: 6px solid white;
   border-right: 6px solid white;
-  margin-top: 0; }
+  background-color: transparent; }
 
 .grid3content {
   display: grid;

@@ -9,11 +9,11 @@
                         //============================//
 
 .logo {
-    height:150px;
-    width:300px;
     font-weight: 700;
     line-height: 22px;
     font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    margin-left: 25px;
 }
 
                                 //===========================//
@@ -222,6 +222,19 @@ $animationSpeed: 40s;
                                         //        header tags styles        //
                                         //==================================//
 
+.namehead {
+    font-family: 'Montserrat', 'sans-serrif';
+    weight: 700px;
+    font-size: 85px;
+    color: white;
+}
+
+.surnamehead {
+    font-family: 'Montserrat', 'sans-serrif';
+    weight: 400px;
+    font-size: 30px;
+    color: white;
+}
 
 .greyhead {
     font-family: 'Montserrat', 'sans-serrif';
@@ -248,6 +261,12 @@ $animationSpeed: 40s;
 
 }
 
+.landinghead {
+    font-family: 'Raleway', 'sans-serrif';
+    weight: 600px;
+    font-size: 16px;
+}
+
 
                                 //=======================//
                                 //    Text styling       //
@@ -270,4 +289,10 @@ $animationSpeed: 40s;
 .thickline {
     border-bottom: 4px solid black;
     margin-right: 92%;
+}
+
+.thickline2 {
+    border-bottom: 4px solid white;
+    margin-right: 47%;
+    margin-left: 47%;
 }
