@@ -1,35 +1,78 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Raleway");
 .grid-container2 {
-  background-image: url(../img/Code4CT-homepage.jpg);
+  background-image: url(../img/architecture.jpg);
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  background-attachment: fixed; }
 
 * {
-  margin-left: 0px;
+  margin-left: 0;
   margin-right: 0px; }
 
 .logo {
   height: 150px;
-  width: 300px; }
+  width: 300px;
+  font-weight: 700;
+  line-height: 22px;
+  font-family: 'Raleway', sans-serif; }
 
 input {
   border-radius: 2px;
   border: none;
   padding: 0.8%; }
 
+.submit-btn {
+  width: 80px;
+  height: 25px;
+  background-color: darkslategray; }
+
 .email-input {
   width: 500px; }
 
 button {
-  width: 90px;
-  border-radius: 2px;
-  border: none;
-  padding: 0.8%;
-  background-color: #e38f84; }
+  background-color: transparent; }
 
-.submit-btn {
-  width: 80px;
-  height: 25px;
-  background-color: #e38f84; }
+.btn {
+  width: 200px;
+  height: 50px;
+  border: 0.005em solid black;
+  margin: 30px 0;
+  position: relative;
+  cursor: pointer;
+  transition: all 1s ease;
+  overflow: hidden; }
+
+.btn > p {
+  text-align: center;
+  text-transform: uppercase;
+  color: darkslategray;
+  font-weight: bold;
+  font-size: 16px;
+  position: relative;
+  z-index: 1;
+  transition: all 0.5s ease; }
+
+/* sliders */
+.btn:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  position: absolute;
+  transition: all 0.5s ease;
+  color: white; }
+
+/* Top Slider */
+.btn-1:before {
+  top: -60px;
+  left: 0; }
+
+/* Hover Effect */
+.btn-1:hover:before {
+  top: 0; }
+
+.btn:hover p {
+  color: white; }
 
 @keyframes scroll {
   0% {
@@ -182,7 +225,7 @@ a:hover {
   grid-template-columns: 33.4% auto 33.3%;
   /* Create spaces between items or "blocks" */
   grid-gap: 0;
-  background-color: #e38f84;
+  background-color: darkslategray;
   color: white;
   padding: 10px; }
 
@@ -196,11 +239,12 @@ a:hover {
   /* Creating columns */
   grid-template-columns: 100%;
   /* Create spaces between items or "blocks" */
+  grid-template-rows: auto auto;
   grid-gap: 0;
   background-color: black;
   color: white;
   padding: 20%;
-  height: 100px; }
+  height: 200px; }
 
 .grid-container2 > div {
   background-color: royalblue;
@@ -211,30 +255,20 @@ a:hover {
 .grid3content {
   display: grid;
   /* Creating columns */
-  grid-template-columns: 50% 25% 25%;
+  grid-template-columns: 50% 50%;
   /* Create spaces between items or "blocks" */
   grid-auto-rows: auto auto;
-  grid-gap: 20px;
-  background-color: rgba(0, 0, 0, 0.52);
+  background-color: #262626;
   color: white;
-  padding: 10%; }
+  padding: 0 15%;
+  height: 400px; }
 
 .grid3content > div {
-  background-color: royalblue;
   text-align: center;
   padding: 1%; }
 
-.item-1 {
-  grid-column: span 1;
-  grid-row: span 2; }
-
-.item-2 {
-  grid-column-start: 2;
-  grid-column-end: 3; }
-
-.item-3 {
-  grid-column-start: 3;
-  grid-column-end: 4; }
+.item1 {
+  background-color: darkgray; }
 
 .grid4content {
   display: grid;
@@ -253,7 +287,7 @@ a:hover {
   padding: 20px; }
 
 .grid-container5 {
-  background-color: #e38f84;
+  background-color: darkslategray;
   padding-left: 25%;
   padding-top: 4%;
   padding-right: 15%; }

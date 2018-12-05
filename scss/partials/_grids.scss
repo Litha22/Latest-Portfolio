@@ -19,17 +19,20 @@
     padding: 20px 0;
     font-size: 34px;
 }
+
+// nav bar styling ends here
   
 .grid-container2{
     display:grid;
     /* Creating columns */
     grid-template-columns: 100% ;
     /* Create spaces between items or "blocks" */
+    grid-template-rows: auto auto;
     grid-gap: 0;
     background-color: black;
     color:white;
     padding:20%;
-    height: 100px;
+    height: 200px;
 }
 
 .grid-container2 >div {
@@ -39,39 +42,30 @@
     font-size: 20px;
 }
 
-// Grid-container3 has nested grid 
+// Grid-container3 
 
 .grid3content{
     display:grid;
     /* Creating columns */
-    grid-template-columns: 50% 25% 25% ;
+    grid-template-columns: 50% 50% ;
     /* Create spaces between items or "blocks" */
     grid-auto-rows: auto auto;
-    grid-gap:20px;
-    background-color: rgba(0, 0, 0, 0.52);
+    background-color: #262626;
     color:white;
-    padding: 10%;
+    padding: 0 15%;
+    height: 400px;
 }
 .grid3content >div {
-    background-color: royalblue;
     text-align: center;
     padding: 1%; 
 }
-
-.item-1 {
-    grid-column: span 1;
-    grid-row: span 2;
+.item1 {
+    background-color: darkgray;
 }
 
-.item-2 {
-    grid-column-start: 2;
-    grid-column-end: 3;
+.item2 {
+    
 
-}
-
-.item-3 {
-    grid-column-start: 3;
-    grid-column-end: 4;
 }
 
 // grid-container3 styling ends here
