@@ -21,6 +21,8 @@
 }
 
 // nav bar styling ends here
+
+// header grid styling
   
 .grid-container2{
     display:grid;
@@ -53,18 +55,21 @@
     background-color: #262626;
     color:white;
     padding: 0 15%;
-    height: 400px;
 }
 .grid3content >div {
-    text-align: center;
-    padding: 1%; 
+ 
 }
-.item1 {
-    background-color: darkgray;
+.item-1 {
+    text-align: center;
+    background-color: $lightgray;
 }
 
-.item2 {
-    
+.item-2 {
+    font-family: Georgia ,serif;
+    weight: 100px;
+    text-align: left;
+    margin-left: 50px;
+
 
 }
 
