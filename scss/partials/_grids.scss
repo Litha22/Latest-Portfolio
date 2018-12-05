@@ -33,8 +33,7 @@
     grid-gap: 0;
     background-color: black;
     color:white;
-    padding:20%;
-    height: 200px;
+    padding:10% 10%;
 }
 
 .grid-container2 >div {
@@ -80,19 +79,30 @@
 .grid4content{
     display:grid;
     /* Creating columns */
-    grid-template-columns: 25% 25% 25% 25% ;
+    grid-template-columns: 28% auto 28% ;
     /* Create spaces between items or "blocks" */
-    grid-gap: 10px;
-    background-color: rgba(0, 0, 0, 1);
     color:white;
-    padding: 10%;
-    height: 200px;
+    height: 500px;
 }
 
 .grid4content >div {
-    background-color: royalblue;
-    text-align: center;
+    text-align: left;
     padding: 20px; 
+}
+
+.item-6, .item-8 {
+    background-color: #EEEEEE;
+
+}
+
+.item-8 {
+
+}
+
+.item-7 {
+    background-image:url(../img/jon_chreiten.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 // Grid-container4 ends here
