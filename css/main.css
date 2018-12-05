@@ -205,13 +205,19 @@ button {
   grid-gap: 0;
   background-color: black;
   color: white;
-  padding: 10% 10%; }
+  padding: 10% 30%; }
 
 .grid-container2 > div {
   background-color: royalblue;
   text-align: center;
   padding: 20px 0;
   font-size: 20px; }
+
+.headercontent {
+  border-bottom: 6px solid white;
+  border-left: 6px solid white;
+  border-right: 6px solid white;
+  margin-top: 0; }
 
 .grid3content {
   display: grid;
