@@ -5,15 +5,14 @@
   background-size: cover;
   background-attachment: fixed; }
 
-* {
-  margin-left: 0;
-  margin-right: 0px; }
+html {
+  scroll-behavior: smooth; }
 
 .logo {
   font-weight: 700;
   line-height: 22px;
   font-family: 'Raleway', sans-serif;
-  font-size: 50px;
+  font-size: 30px;
   margin-left: 25px; }
 
 input {
@@ -34,6 +33,9 @@ button {
   font-family: 'Raleway' , sans-serif;
   font-size: 12px; }
 
+.works-button {
+  float: right; }
+
 .btn {
   width: 150px;
   height: 50px;
@@ -47,7 +49,7 @@ button {
 .btn > p {
   text-align: center;
   text-transform: uppercase;
-  color: darkslategray;
+  color: black;
   font-weight: bold;
   font-size: 16px;
   position: relative;
@@ -153,11 +155,22 @@ button {
     height: 100px;
     width: 250px; }
 
+span {
+  color: transparent; }
+
 .namehead {
+  display: flex;
+  flex-direction: row;
   font-family: 'Montserrat', 'sans-serrif';
   weight: 700px;
   font-size: 85px;
-  color: white; }
+  line-height: 0.1%; }
+
+.namehead:before, .namehead:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 7px solid #000;
+  margin-bottom: auto; }
 
 .surnamehead {
   font-family: 'Montserrat', 'sans-serrif';
@@ -168,7 +181,6 @@ button {
 .greyhead {
   font-family: 'Montserrat', 'sans-serrif';
   weight: 700px;
-  font-size: 120px;
   color: #262626;
   line-height: 1%;
   padding-top: 5%; }
@@ -191,8 +203,28 @@ button {
   weight: 600px;
   font-size: 16px; }
 
+.works-mainhead {
+  font-family: 'Montserrat', 'sans-serrif';
+  weight: 700px;
+  font-size: 16px;
+  color: black;
+  text-align: right; }
+
+.works-minorhead {
+  font-family: 'Georgia', 'serrif';
+  weight: 300px;
+  font-size: 12px;
+  color: #4c4c4c;
+  text-align: right; }
+
 .about-me-text {
   font-size: 19px; }
+
+.work-brief {
+  font-family: 'Georgia', 'serrif';
+  weight: 300px;
+  font-size: 16px;
+  color: #4c4c4c; }
 
 .thickline {
   border-bottom: 4px solid black;
@@ -203,10 +235,32 @@ button {
   margin-right: 47%;
   margin-left: 47%; }
 
+.hide {
+  opacity: 0; }
+
+nav {
+  font-family: 'Montserrat', 'sans-serrif';
+  text-align: left;
+  margin-top: 1%;
+  font-size: 28px; }
+
+.link-1 {
+  transition: 0.3s ease;
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 20px 0;
+  margin: 0 20px; }
+
+.link-1:hover {
+  border-top: 4px solid #ffffff;
+  border-bottom: 4px solid #ffffff;
+  padding: 6px 0; }
+
 .grid-container1 {
   display: grid;
   /* Creating columns */
-  grid-template-columns: 33.4% auto 33.3%;
+  grid-template-columns: 33.4% auto 55%;
   /* Create spaces between items or "blocks" */
   grid-gap: 0;
   background-color: darkslategray;
@@ -222,7 +276,7 @@ button {
   grid-gap: 0;
   background-color: black;
   color: white;
-  padding: 10% 30%; }
+  padding: 15% 30%; }
 
 .grid-container2 > div {
   text-align: center;
@@ -247,7 +301,8 @@ button {
 
 .item-1 {
   text-align: center;
-  background-color: #2D2D2D; }
+  background-color: #2D2D2D;
+  font-size: 450%; }
 
 .item-2 {
   font-family: Georgia ,serif;
@@ -284,10 +339,9 @@ button {
 .grid5content {
   display: grid;
   /* Creating columns */
-  grid-template-columns: 25% 25% 50%;
+  grid-template-columns: 15% 70% 15%;
   /* Create spaces between items or "blocks" */
   grid-template-rows: auto auto;
-  grid-gap: 10px;
   color: white;
   padding-right: 15%;
   padding-bottom: 5%;
@@ -297,9 +351,6 @@ button {
   background-color: royalblue;
   text-align: center;
   padding: 20px; }
-
-.item-11 {
-  grid-row: span 2; }
 
 .grid-container6 {
   background-color: #680909;
