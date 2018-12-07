@@ -1,7 +1,7 @@
  
 
  .grid-container2 {
-    background-image:url(../img/beachpath.jpg);
+    background-image: url(../img/architecture.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -10,5 +10,13 @@
 
 html {
     scroll-behavior: smooth;
+}
+
+.fas {
+    color: black;
+}
+
+.far {
+    color: black;
 }
 
