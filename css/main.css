@@ -132,6 +132,14 @@ button {
 .btn-white:hover p {
   color: #262626; }
 
+img {
+  width: 100px;
+  height: 100px;
+  transition: all 0.6s; }
+
+img:hover {
+  transform: scale(1.4); }
+
 .namehead {
   text-align: center;
   font-family: 'Montserrat', 'sans-serrif';
@@ -260,9 +268,7 @@ nav {
   grid-gap: 0;
   background-color: darkslategray;
   color: white;
-  padding: 10px;
-  position: fixed;
-  width: 97.6%; }
+  padding: 10px; }
 
 .grid-container2 {
   display: grid;
@@ -356,7 +362,8 @@ nav {
   transform: scale(1.1); }
 
 .item-10 {
-  transition: all .6s ease-in-out; }
+  transition: all .6s ease-in-out;
+  box-shadow: 50%; }
 
 .item-10:hover {
   transform: scale(1.1); }
@@ -428,9 +435,6 @@ nav {
   /* Creating columns */
   grid-template-columns: auto;
   /* Create spaces between items or "blocks" */
-  background-image: url(../img/architecture.jpg);
-  background-attachment: fixed;
-  background-repeat: no-repeat;
   background-size: cover;
   color: white;
   padding: 5% 20%; }
@@ -442,17 +446,19 @@ nav {
 .grid10content {
   display: grid;
   /* Creating columns */
-  grid-template-columns: 35% 17% 24% 24%;
+  grid-template-columns: auto auto auto auto auto;
   /* Create spaces between items or "blocks" */
   grid-gap: 5px;
   background-color: #b80000;
   color: white;
-  padding: 5% 20%; }
+  padding: 5% 20%;
+  background-image: url(../img/architecture.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
 
 .grid10content > div {
-  background-color: royalblue;
-  text-align: center;
-  height: 150px; }
+  text-align: center; }
 
 .footercontent {
   display: grid;

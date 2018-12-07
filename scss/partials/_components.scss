@@ -159,12 +159,21 @@ button {
 
 
                                 //===================================//
-                                //     Auto carousel begins here     //
+                                //     Image styling begins here     //
                                 //===================================//
 
+img {
+    width:100px;
+    height:100px;
+    transition: all 0.6s;
+}
+
+img:hover {
+    transform: scale(1.4); 
+}
 
                                         //=============================//
-                                        //    Auto carousel ends here  //
+                                        //    image styling ends here  //
                                         //=============================//
 
                                         //==================================//

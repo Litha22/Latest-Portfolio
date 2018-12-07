@@ -12,8 +12,6 @@
     background-color: $primary-color;
     color:white;
     padding:10px;
-    position: fixed;
-    width:97.6%;
 }
 
 // nav bar styling ends here
@@ -145,7 +143,8 @@
     transform: scale(1.1); 
 }
 .item-10 {
-    transition: all .6s ease-in-out; 
+    transition: all .6s ease-in-out;
+    box-shadow: 50%; 
 }
 
 .item-10:hover { 
@@ -234,10 +233,7 @@
     /* Creating columns */
     grid-template-columns: auto;
     /* Create spaces between items or "blocks" */
-    
-    background-image:url(../img/architecture.jpg);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+
     background-size: cover;
     color:white;
     padding:5% 20%;
@@ -254,18 +250,21 @@
 .grid10content {
     display:grid;
     /* Creating columns */
-    grid-template-columns: 35% 17% 24% 24%;
+    grid-template-columns: auto auto auto auto auto;
     /* Create spaces between items or "blocks" */
     grid-gap: 5px;
     background-color:rgb(184, 0, 0);
     color:white;
     padding:5% 20%;
+    background-image: url(../img/architecture.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
 }
 
 .grid10content >div {
-    background-color: royalblue;
     text-align: center;
-    height: 150px;
 }
 
 .footercontent {
