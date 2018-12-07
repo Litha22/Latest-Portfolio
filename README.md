@@ -1,8 +1,8 @@
 # code4ct
-Rebuilding website for a client in an attempt to make it more modern and interactive 
+Rebuilding My Curriculum Vitae in an attempt to make it more modern and interactive 
 
 ## Live Link
-- https://litha22.github.io/code4ct/index.html
+- https://litha22.github.io/Latest-Portfolio/index.html
 
 ## Prevalent Technologies Used
 
@@ -44,5 +44,5 @@ Tools:
 Litha Nelani - 2018
 
 
-visit site here:  https://litha22.github.io/code4ct/index.html
+visit site here: https://litha22.github.io/Latest-Portfolio/index.html
 
