@@ -12,6 +12,8 @@
     background-color: $primary-color;
     color:white;
     padding:10px;
+    position: fixed;
+    width:97.6%;
 }
 
 // nav bar styling ends here
@@ -98,26 +100,6 @@
 
 }
 
-.item-6 { 
-    transition: all .2s ease-in-out; 
-}
-
-.item-6:hover { 
-    transform: scale(1.1); 
-}
-
-.item-8 { 
-    transition: all .2s ease-in-out; 
-}
-
-.item-8:hover { 
-    transform: scale(1.2); 
-}
-
-
-.item-8 {
-
-}
 
 .item-7 {
     background-image:url(../img/jon_chreiten.png) ;
@@ -142,10 +124,10 @@
 .grid5content{
     display:grid;
     /* Creating columns */
-    grid-template-columns: 33.3% auto 33.3%;
+    grid-template-columns: 33% auto 33%;
     /* Create spaces between items or "blocks" */
     color:white;
-    grid-gap: 10px;
+    grid-gap: 25px;
     padding-bottom: 5%;
 }
 
@@ -153,8 +135,31 @@
     background-color: rgba(0, 0, 0, 0.247);
     text-align: center;
     padding: 20px;
-    height: 100px;
 }
+
+.item-9 {
+    transition: all .6s ease-in-out; 
+}
+
+.item-9:hover { 
+    transform: scale(1.1); 
+}
+.item-10 {
+    transition: all .6s ease-in-out; 
+}
+
+.item-10:hover { 
+    transform: scale(1.1); 
+}
+.item-11 {
+    transition: all .6s ease-in-out; 
+}
+
+.item-11:hover { 
+    transform: scale(1.1); 
+}
+
+
 
 
 
@@ -230,7 +235,7 @@
     grid-template-columns: auto;
     /* Create spaces between items or "blocks" */
     
-    background-image:url(../img/beachpath.jpg);
+    background-image:url(../img/architecture.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;

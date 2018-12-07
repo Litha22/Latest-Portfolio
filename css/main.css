@@ -14,6 +14,12 @@ html {
 .far {
   color: black; }
 
+.fab {
+  color: black; }
+
+.fas {
+  color: black; }
+
 .logo {
   font-weight: 700;
   line-height: 22px;
@@ -126,41 +132,6 @@ button {
 .btn-white:hover p {
   color: #262626; }
 
-@keyframes scroll {
-  0% {
-    transform: translateX(0); }
-  100% {
-    transform: translateX(calc(-250px * 7)); } }
-.slider {
-  background: white;
-  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
-  height: 200px;
-  margin: auto;
-  overflow: hidden;
-  position: relative;
-  width: 960px; }
-  .slider::before, .slider::after {
-    background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
-    content: "";
-    height: 300px;
-    position: absolute;
-    width: 200px;
-    z-index: 2; }
-  .slider::after {
-    right: 0;
-    top: 0;
-    transform: rotateZ(180deg); }
-  .slider::before {
-    left: 0;
-    top: 0; }
-  .slider .slide-track {
-    animation: scroll 40s linear infinite;
-    display: flex;
-    width: calc(250px * 14); }
-  .slider .slide {
-    height: 100px;
-    width: 250px; }
-
 .namehead {
   text-align: center;
   font-family: 'Montserrat', 'sans-serrif';
@@ -214,6 +185,10 @@ button {
   color: #4c4c4c;
   text-align: right; }
 
+.edu-heading {
+  font-family: 'Montserrat', 'sans-serrif';
+  color: black; }
+
 .about-me-text {
   font-size: 19px; }
 
@@ -230,6 +205,10 @@ button {
   text-align: center;
   font-weight: 700; }
 
+.edu-para {
+  font-family: 'Raleway', 'sans-serrif';
+  color: black; }
+
 .thickline {
   border-bottom: 4px solid black;
   margin-right: 92%; }
@@ -238,6 +217,15 @@ button {
   border-bottom: 3px solid white;
   margin-right: 47%;
   margin-left: 47%; }
+
+.thickline3 {
+  border-bottom: 4px solid black;
+  margin-right: 45%;
+  margin-left: 45%; }
+
+.thickline4 {
+  border-bottom: 4px solid white;
+  margin-right: 92%; }
 
 .hide {
   opacity: 0; }
@@ -261,6 +249,9 @@ nav {
   border-bottom: 4px solid #ffffff;
   padding: 6px 0; }
 
+.key-traits {
+  padding: 50px; }
+
 .grid-container1 {
   display: grid;
   /* Creating columns */
@@ -269,7 +260,9 @@ nav {
   grid-gap: 0;
   background-color: darkslategray;
   color: white;
-  padding: 10px; }
+  padding: 10px;
+  position: fixed;
+  width: 97.6%; }
 
 .grid-container2 {
   display: grid;
@@ -328,18 +321,6 @@ nav {
 .item-6, .item-8 {
   background-color: #acd3d3; }
 
-.item-6 {
-  transition: all .2s ease-in-out; }
-
-.item-6:hover {
-  transform: scale(1.1); }
-
-.item-8 {
-  transition: all .2s ease-in-out; }
-
-.item-8:hover {
-  transform: scale(1.2); }
-
 .item-7 {
   background-image: url(../img/jon_chreiten.png);
   background-repeat: no-repeat;
@@ -357,17 +338,34 @@ nav {
 .grid5content {
   display: grid;
   /* Creating columns */
-  grid-template-columns: 33.3% auto 33.3%;
+  grid-template-columns: 33% auto 33%;
   /* Create spaces between items or "blocks" */
   color: white;
-  grid-gap: 10px;
+  grid-gap: 25px;
   padding-bottom: 5%; }
 
 .grid5content > div {
   background-color: rgba(0, 0, 0, 0.247);
   text-align: center;
-  padding: 20px;
-  height: 100px; }
+  padding: 20px; }
+
+.item-9 {
+  transition: all .6s ease-in-out; }
+
+.item-9:hover {
+  transform: scale(1.1); }
+
+.item-10 {
+  transition: all .6s ease-in-out; }
+
+.item-10:hover {
+  transform: scale(1.1); }
+
+.item-11 {
+  transition: all .6s ease-in-out; }
+
+.item-11:hover {
+  transform: scale(1.1); }
 
 .grid-container6 {
   background-color: #680909;
@@ -430,7 +428,7 @@ nav {
   /* Creating columns */
   grid-template-columns: auto;
   /* Create spaces between items or "blocks" */
-  background-image: url(../img/beachpath.jpg);
+  background-image: url(../img/architecture.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
