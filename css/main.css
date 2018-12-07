@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat|Raleway");
 .grid-container2 {
-  background-image: url(../img/architecture.jpg);
+  background-image: url(../img/beachpath.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed; }
@@ -103,7 +103,7 @@ button {
   content: "";
   width: 100%;
   height: 100%;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   position: absolute;
   transition: all 0.5s ease;
   color: white; }
@@ -155,9 +155,6 @@ button {
     height: 100px;
     width: 250px; }
 
-span {
-  color: transparent; }
-
 .namehead {
   display: flex;
   flex-direction: row;
@@ -169,7 +166,7 @@ span {
 .namehead:before, .namehead:after {
   content: "";
   flex: 1 1;
-  border-bottom: 7px solid #000;
+  border-bottom: 7px solid white;
   margin-bottom: auto; }
 
 .surnamehead {
@@ -189,7 +186,7 @@ span {
   font-family: 'Montserrat', 'sans-serrif';
   weight: 700px;
   font-size: 27px;
-  color: #FFFFFF;
+  color: #ffffff;
   padding-top: 10%; }
 
 .blackhead {
@@ -238,7 +235,7 @@ span {
   margin-right: 92%; }
 
 .thickline2 {
-  border-bottom: 4px solid white;
+  border-bottom: 3px solid white;
   margin-right: 47%;
   margin-left: 47%; }
 
@@ -338,40 +335,25 @@ nav {
   background-size: cover; }
 
 .grid-container5 {
-  background-color: darkslategray;
-  padding-left: 25%;
+  background-color: #FFFFFF;
+  padding-left: 10%;
   padding-top: 4%;
-  padding-right: 15%; }
+  padding-right: 10%; }
 
 .grid5content {
   display: grid;
   /* Creating columns */
-  grid-template-columns: 100%;
+  grid-template-columns: 33.3% auto 33.3%;
   /* Create spaces between items or "blocks" */
-  grid-template-rows: auto auto;
   color: white;
-  padding-right: 15%;
+  grid-gap: 10px;
   padding-bottom: 5%; }
-
-.item-10 {
-  border-bottom: 6px solid white;
-  border-right: 6px solid white;
-  border-left: 6px solid white; }
-
-.item-9 {
-  display: flex;
-  flex-direction: row; }
-
-.item-9:before, .item-9:after {
-  content: "";
-  flex: 1 1;
-  border-bottom: 6px solid #000;
-  margin-top: 90px; }
 
 .grid5content > div {
   background-color: royalblue;
   text-align: center;
-  padding: 20px; }
+  padding: 20px;
+  height: 100px; }
 
 .grid-container6 {
   background-color: #680909;

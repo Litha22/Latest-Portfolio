@@ -242,10 +242,6 @@ $animationSpeed: 40s;
 //     margin-bottom: auto;
 //   }
 
-span {
-    color:transparent;
-}
-
 .namehead {
     display: flex;
     flex-direction: row;
@@ -257,7 +253,7 @@ span {
   .namehead:before, .namehead:after{
     content: "";
     flex: 1 1;
-    border-bottom: 7px solid #000;
+    border-bottom: 7px solid white;
     margin-bottom: auto;
   }
   
@@ -355,7 +351,7 @@ span {
 }
 
 .thickline2 {
-    border-bottom: 4px solid white;
+    border-bottom: 3px solid white;
     margin-right: 47%;
     margin-left: 47%;
 }
@@ -397,3 +393,10 @@ nav {
   border-bottom: 4px solid #ffffff;
   padding: 6px 0;
 }
+
+
+                                        //===============================//
+                                        //        header Font styling    //
+                                        //==============================//
+
+                                        
