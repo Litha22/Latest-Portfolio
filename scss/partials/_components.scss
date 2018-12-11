@@ -406,11 +406,11 @@ nav {
                                          //===============================//
                                         //        social icon menu       //
                                         //==============================//
-
-strike {
-    display:none;
+.footercontent a:hover {
+    text-decoration: line-through;
 }
 
-strike:hover {
-    display: inline;
+a {
+    text-decoration: none;
+    font-family: 'Montserrat', 'sans-serrif';
 }
