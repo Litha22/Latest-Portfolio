@@ -313,7 +313,8 @@ nav {
 
 a {
   text-decoration: none;
-  font-family: 'Montserrat', 'sans-serrif'; }
+  font-family: 'Montserrat', 'sans-serrif';
+  font-style: italic; }
 
 .grid-container1 {
   display: grid;
@@ -520,12 +521,10 @@ a {
   grid-gap: 5px;
   background-color: #b80000;
   color: white;
-  padding-top: 5%;
-  padding-right: 1%; }
+  padding: 2% 4%; }
 
 .footercontent > div {
   background-color: royalblue;
-  text-align: center;
-  height: 150px; }
+  text-align: center; }
 
 /*# sourceMappingURL=main.css.map */
