@@ -20,6 +20,27 @@ html {
 .fas {
   color: black; }
 
+.coding-icons {
+  font-size: 90px; }
+
+* {
+  animation: fadein 10s;
+  -moz-animation: fadein 2s;
+  /* Firefox */
+  -webkit-animation: fadein 2s;
+  /* Safari and Chrome */
+  -o-animation: fadein 2s;
+  /* Opera */ }
+
+@keyframes fadein {
+  from {
+    opacity: 0.5; }
+  to {
+    opacity: 1; } }
+.main-grid > div {
+  margin: 0%;
+  padding: 0%; }
+
 .logo {
   font-weight: 700;
   line-height: 22px;
@@ -49,8 +70,8 @@ button {
   float: right; }
 
 .btn {
-  width: 150px;
-  height: 50px;
+  width: 9.375em;
+  height: 3.125em;
   border: 0.005em solid black;
   margin: 30px 0;
   position: relative;
@@ -91,10 +112,10 @@ button {
   color: white; }
 
 .btn-white {
-  width: 150px;
-  height: 50px;
+  width: 9.375em;
+  height: 3.125em;
   border: 0.005em solid white;
-  margin: 30px 0;
+  margin: 1.875em 0;
   position: relative;
   cursor: pointer;
   transition: all 1s ease;
@@ -122,7 +143,7 @@ button {
 
 /* Top Slider */
 .btn-2:before {
-  top: -60px;
+  top: -3.750em;
   left: 0; }
 
 /* Hover Effect */
@@ -259,6 +280,39 @@ nav {
 
 .key-traits {
   padding: 50px; }
+
+.icon-bar {
+  position: fixed;
+  right: 0%;
+  top: 35%; }
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 25px;
+  transition: all 1s ease;
+  color: white;
+  font-size: 20px;
+  opacity: 0.9; }
+
+.icon-bar > a:hover {
+  background: transparent;
+  color: darkslategray;
+  transform: scale(1.7); }
+
+.social-media {
+  background: rgba(3, 85, 110, 0.925);
+  color: white; }
+
+.content {
+  margin-left: 75px;
+  font-size: 30px; }
+
+strike {
+  display: none; }
+
+strike:hover {
+  display: inline; }
 
 .grid-container1 {
   display: grid;
@@ -446,19 +500,16 @@ nav {
 .grid10content {
   display: grid;
   /* Creating columns */
-  grid-template-columns: auto auto auto auto auto;
+  grid-template-columns: auto auto auto auto;
   /* Create spaces between items or "blocks" */
   grid-gap: 5px;
   background-color: #b80000;
   color: white;
   padding: 5% 20%;
   background-image: url(../img/architecture.jpg);
+  background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed; }
-
-.grid10content > div {
-  text-align: center; }
+  background-size: cover; }
 
 .footercontent {
   display: grid;

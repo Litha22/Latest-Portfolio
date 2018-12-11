@@ -29,3 +29,35 @@ html {
 .fas {
     color: black;
 }
+
+
+
+
+.coding-icons {
+    font-size: 90px;
+}
+
+// fade in effect of page on initial load
+
+* {
+    animation: fadein 10s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+
+@keyframes fadein {
+    from {
+        opacity:0.5;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+// fade in effect on divs
+
+.main-grid >div {
+    margin: 0%;
+    padding: 0%;
+}

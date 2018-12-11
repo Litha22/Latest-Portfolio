@@ -55,8 +55,8 @@ button {
                               //====================================//
 
     .btn {
-        width: 150px;
-        height: 50px;
+        width: 9.375em;
+        height: 3.125em;
         border: 0.005em solid black;
         margin: 30px 0;
         position: relative;
@@ -107,14 +107,15 @@ button {
                                 //===================================//  
 
     .btn-white {
-        width: 150px;
-        height: 50px;
+        width: 9.375em;
+        height: 3.125em;
         border: 0.005em solid white;
-        margin: 30px 0;
+        margin: 1.875em 0;
         position: relative;
         cursor: pointer;
         transition: all 1s ease;
         overflow: hidden;
+        
     }
     
     .btn-white > p {
@@ -141,7 +142,7 @@ button {
     
     /* Top Slider */
     .btn-2:before{
-        top: -60px;
+        top: -3.750em;
         left: 0;
     }
     
@@ -363,4 +364,53 @@ nav {
     padding: 50px;
 }
 
+                                         //===============================//
+                                        //        social icon menu       //
+                                        //==============================//
+
+.icon-bar {
+  position: fixed;
+  right:0%;
+  top: 35%;
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 25px;
+  transition: all 1s ease;
+  color: white;
+  font-size: 20px;
+//   border-radius:150px;
+  opacity:0.9;
+}
+
+.icon-bar >a:hover {
+  background: transparent;
+  color: darkslategray;
+  transform: scale(1.7);
+
+}
+
+.social-media {
+  background: rgba(3, 85, 110, 0.925);
+  color: white;
+}
+
+.content {
+  margin-left: 75px;
+  font-size: 30px;
+}
                                         
+
+                                         //===============================//
+                                        //        social icon menu       //
+                                        //==============================//
+
+strike {
+    display:none;
+}
+
+strike:hover {
+    display: inline;
+}

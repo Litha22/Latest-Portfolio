@@ -250,22 +250,19 @@
 .grid10content {
     display:grid;
     /* Creating columns */
-    grid-template-columns: auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto;
     /* Create spaces between items or "blocks" */
     grid-gap: 5px;
     background-color:rgb(184, 0, 0);
     color:white;
     padding:5% 20%;
-    background-image: url(../img/architecture.jpg);
+    background-image:url(../img/architecture.jpg);
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
-
+    
 }
 
-.grid10content >div {
-    text-align: center;
-}
 
 .footercontent {
     display:grid;
