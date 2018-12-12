@@ -409,12 +409,25 @@ nav {
                                         //==============================//
 .footercontent a:hover {
     text-decoration: line-through;
+    text-align: center;
 }
 
 .footerlinks {
-    text-decoration: none;
     font-family: 'Montserrat', 'sans-serrif';
-    weight: 300px;
-    font-size: 18px;
+    weight: 700px;
+    font-size: 16px;
     color: black;
+    text-align: center;
+}
+
+.item-33 >p {
+    text-align: left;
+}
+
+.item-34 >p{
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
 }
