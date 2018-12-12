@@ -14,6 +14,7 @@
     font-family: 'Raleway', sans-serif;
     font-size: 30px;
     margin-left: 25px;
+    
 }
 
                                 //===========================//
@@ -410,8 +411,10 @@ nav {
     text-decoration: line-through;
 }
 
-a {
+.footerlinks {
     text-decoration: none;
     font-family: 'Montserrat', 'sans-serrif';
-    font-style: italic;
+    weight: 300px;
+    font-size: 18px;
+    color: black;
 }

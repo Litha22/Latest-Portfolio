@@ -37,9 +37,9 @@ html {
     opacity: 0.5; }
   to {
     opacity: 1; } }
-.main-grid > div {
-  margin: 0%;
-  padding: 0%; }
+html, body {
+  margin: 0;
+  padding: 0; }
 
 .logo {
   font-weight: 700;
@@ -311,10 +311,12 @@ nav {
 .footercontent a:hover {
   text-decoration: line-through; }
 
-a {
+.footerlinks {
   text-decoration: none;
   font-family: 'Montserrat', 'sans-serrif';
-  font-style: italic; }
+  weight: 300px;
+  font-size: 18px;
+  color: black; }
 
 .grid-container1 {
   display: grid;
@@ -519,7 +521,7 @@ a {
   grid-template-columns: 50% 50%;
   /* Create spaces between items or "blocks" */
   grid-gap: 5px;
-  background-color: #b80000;
+  background-color: darkslategray;
   color: white;
   padding: 2% 4%; }
 
