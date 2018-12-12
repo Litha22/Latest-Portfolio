@@ -208,43 +208,6 @@
     height: 100px;
 }
 
-.grid8content{
-    display:grid;
-    /* Creating columns */
-    grid-template-columns: 100%;
-    /* Create spaces between items or "blocks" */
-    grid-template-rows: auto auto;
-    grid-gap: 0;
-    background-color:rgb(156, 6, 6);
-    color:white;
-    padding: 2% 30%;
-}
-
-.grid8content >div {
-    background-color: royalblue;
-    text-align: center;
-    height: 150px;
-}
-
-// grid container 9
-
-.grid-container9 {
-    display:grid;
-    /* Creating columns */
-    grid-template-columns: auto;
-    /* Create spaces between items or "blocks" */
-
-    background-size: cover;
-    color:white;
-    padding:5% 20%;
-}
-
-.grid-container9 >div {
-    text-align: center;
-    height: 150px;
-}
-
-
 
 
 .grid10content {
